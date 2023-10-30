@@ -1,0 +1,79 @@
+.hero h1 {
+  margin-top: 40px;
+  padding-bottom: 20px;
+font-family: 'Bebas Neue', sans-serif;
+  font-weight: 800;
+  letter-spacing: 5px;
+  color: rgba(255, 255, 255, 0.847);
+}
+.hero h1 span{
+    color: rgb(0, 109, 234);
+    letter-spacing: 5px;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+.hero-img {
+  width: 600px;
+  mix-blend-mode: hard-light;
+  object-fit: cover;
+  height: 600px;
+}
+.hero button{
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 8px 15px;
+    border: 0;
+        background-color: rgb(0, 0, 152);
+color: white;
+    transition: .3s ease;
+}
+.hero button:hover {
+    background-color: transparent;
+    color: rgb(5, 121, 255);
+}
+.full-page-div {
+  display: flex;
+  height: 100%;
+}
+
+.text-content {
+  flex: 1;
+  padding: 20px;
+}
+
+@media screen and (max-width:768px) {
+    
+    .hero{
+        width: 100vw;
+        overflow: hidden;
+    }
+    .hero{
+        width: 330px;
+        overflow: hidden;
+        padding-left: -10px;
+    }
+    .image-content,.hero-img{
+        display: none;
+    }
+    .cardMain{
+        margin-left: 50px;
+        overflow: hidden;
+    }
+    .hero h1{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+.Card3{
+    object-fit: cover;
+    filter: invert();
+height: 215px;}
+.card2{
+    filter: invert();
+}
+.cardText{
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.663);
+}

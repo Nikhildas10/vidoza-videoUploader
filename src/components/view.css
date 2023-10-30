@@ -1,0 +1,139 @@
+.upload img{
+    width: 2rem;
+    height: 2rem;
+}
+.upload{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    gap: .5rem;
+}
+.upload:hover{
+    cursor: pointer;
+    color: rgba(212, 212, 212, 0.812);
+}
+.fa-trash{
+    transition: .2s ease;
+}
+
+.cardBody .cardText{
+font-size: .9rem;
+}
+.mainCardVideo{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    height: 100%;
+
+}
+.cardBody{
+    border-radius: 10px;
+}
+.cardText{
+    color: rgb(132, 132, 132);
+}
+
+.cardBody ,.cardText, .fa-solid{
+    color: black;
+    border: 0;
+    background-color: white;
+}
+.singCard img{
+    border: 0;
+    outline: 0;
+overflow: hidden;
+}
+.text-danger{
+    color: red;
+}
+td{
+
+font-size: 15px;}
+
+.delCat{
+    color: black;
+    padding: 2px;
+    border-radius: 4px;
+    background-color: rgb(0, 0, 0);
+    transition: all ease .2s;
+    position: absolute;
+right: 48px;}
+.trashh{
+    transition: all ease .2s;
+}
+.delCat:hover,.trashh:hover{
+    transform: scale(1.1);
+}
+ .backBtn{
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 8px 15px;
+    border: 0;
+        background-color: rgb(0, 0, 152);
+color: white;
+    transition: .3s ease;
+}
+.backBtn:hover {
+    background-color: transparent;
+    color: rgb(5, 121, 255);
+}
+
+@media screen and (max-width:768px) {
+    .mainCardVideo{
+grid-template-columns: 1fr;
+padding-left: 35px;
+}
+.delCat{
+    right: 25px;
+}
+}
+.cat{
+display: grid;
+grid-template-columns: 1fr 1fr;
+place-items: center;
+}
+
+.mainCat .cat img{
+    transition: all ease .2s;
+}
+.mainCat .cat img:hover{
+transform: scale(1.1);
+}
+.cat p{
+    margin-top: 15px;
+    font-size: 11px;
+}
+.cardText{
+    align-items: center;
+    display: flex;
+    flex: 1;
+}
+.cardText i{
+    margin-left: 2px;
+}
+
+.singCard img{
+
+    position: relative;
+}
+.cardText i{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: rgba(255, 255, 255, 0.223);
+    padding: 6px;
+    cursor: pointer;
+    color: red;
+    border-radius: 4px;
+}
+.cardText i:hover{
+    background-color:red;
+    color: white;
+}
+.mainCategory{
+    display: flex;
+    gap: 10px;
+}
+.apiCard h4{
+    font-weight: 700;
+}

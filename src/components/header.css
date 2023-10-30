@@ -1,0 +1,29 @@
+.mainNav img{
+    width:2.5rem;
+    height: 2.5rem;
+}
+
+
+.mainNav{
+    
+    font-weight: 800;
+    width: 1000px;
+}
+@media screen and (max-width:768px) {
+.mainNav{
+    margin-left: 80px;
+width: 250px;
+overflow: hidden;}    
+}
+.nav{
+    display: flex;
+    flex-direction:row;
+        width: 100%;
+    align-items: center;
+}
+.nav h4{
+      font-family: 'Poppins', sans-serif;
+margin-top: 5px;
+margin-left: 10px;
+    font-weight: 800;
+}
